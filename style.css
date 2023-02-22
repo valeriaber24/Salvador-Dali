@@ -1,0 +1,64 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    color: #303030;
+}
+
+h1, h2, h3 {
+    margin: 2px 1px 1px;
+    padding: 2px 1px 1px;
+}
+
+p {
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_dali {
+    width: 300px; ;
+    height: 300px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+figcaption{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #dedede;
+}
+
+main{
+    max-width: 765px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+
+.border {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.list {
+    align-self: flex-start;
+}
+
+.wiki{
+    padding: 0px 0px 20px 0px;
+}
